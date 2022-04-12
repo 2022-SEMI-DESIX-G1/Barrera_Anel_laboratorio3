@@ -1,5 +1,5 @@
 function sumarPrimos(num) {
-    var r = 1;
+    var r = 0;
     for(var i=1;i<=num;i++){
       if(esPrimo(i)) r+=i;
     }
@@ -15,4 +15,4 @@ function sumarPrimos(num) {
     return true;
 }
 
-console.log(sumarPrimos(11));
+console.log(sumarPrimos(7));
